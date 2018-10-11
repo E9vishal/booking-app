@@ -45,3 +45,14 @@
   margin-bottom: 15px;
   padding: 7px 9px;
 }
+
+.jumbotron {
+	background-image: asset-url('conference.jpg');
+	background-size: cover;
+	height: 600px;
+}
+
+.jumbotron h1, h3, p {
+	color: black;
+}
+
