@@ -15,3 +15,11 @@ Whether your Booking is planned or impromptu, our conference room booking soluti
 
 <% end %>
 </div>
+
+
+<% if user_signed_in?%>
+<h2> Calender </h2></br>
+<%= month_calendar do |date| %>
+  <%= date %>
+<% end %>
+<% end %>
